@@ -1,0 +1,43 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+      .item1{
+        grid-area: myarea;
+      }
+      .grid-container{
+        display: grid;
+        grid-template-areas: 'myrea myarea . . .';
+        grid-gap: 20px;
+        background-color: chartreuse;
+        padding: 30px;
+      }
+      .grid-container> div{
+        background-color: aqua;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+<div class="grid-container">
+  <div class="itme1">1</div>
+  <div class="itme2">2</div>
+  <div class="itme3">3</div>
+  <div class="itme4">4</div>
+  <div class="itme5">5</div>
+  <div class="itme6">6</div>
+
+    
+  </body>
+  </html>
+
+    
